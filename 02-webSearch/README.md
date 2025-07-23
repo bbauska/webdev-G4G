@@ -223,10 +223,10 @@ Difference between Search Engine and Web Browser:
 <table>
   <thead>
     <tr>
-	  <th>S. No.</tr>
-      <th>Parameters</tr>
-      <th>Search Engine</tr>
-	  <th>Web Browser</tr>
+	  <th>S. No.</th>
+      <th>Parameters</th>
+      <th>Search Engine</th>
+	  <th>Web Browser</th>
 	</tr>
   </thead>
   <tbody>
