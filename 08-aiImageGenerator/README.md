@@ -1,9 +1,9 @@
-# Artificial Intelligence Tutorial | AI Tutorial
-<h6>Last Updated : 25 Jun, 2025</h6>
-Artificial Intelligence (AI) refers to the simulation of human intelligence in machines 
+<h1>Artificial Intelligence Tutorial | AI Tutorial</h1>
+<cite>Last Updated : 25 Jun, 2025</cite>
+<p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines 
 which helps in allowing them to think and act like humans. It involves creating algorithms 
 and systems that can perform tasks which requiring human abilities such as visual perception, 
-speech recognition, decision-making and language translation.
+speech recognition, decision-making and language translation.</p>
 
 <h3>Types of Artificial Intelligence</h3>
 <h4>Artificial Intelligence (AI) is classified into:</h4>
@@ -15,7 +15,7 @@ speech recognition, decision-making and language translation.
 </ul>
 
 <h3>What is an AI Agent?</h3>
-An AI agent is a software or hardware entity that performs actions autonomously with the goal of achieving specific objectives.
+<p>An AI agent is a software or hardware entity that performs actions autonomously with the goal of achieving specific objectives.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/agents-artificial-intelligence/">AI agent</a></li>
@@ -23,10 +23,10 @@ An AI agent is a software or hardware entity that performs actions autonomously 
 </ul>
 
 <h2>Problem Solving in AI</h2>
-Problem-solving is a fundamental aspect of AI which involves the design and application of algorithms to solve complex problems systematically.
+<p>Problem-solving is a fundamental aspect of AI which involves the design and application of algorithms to solve complex problems systematically.</p>
 
 <h3>1. Search Algorithms in AI</h3>
-Search algorithms navigate through problem spaces to find solutions.
+<p>Search algorithms navigate through problem spaces to find solutions.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/dsa/searching-algorithms/">Search algorithms</a></li>
@@ -40,26 +40,35 @@ Search algorithms navigate through problem spaces to find solutions.
 </ul>
 
 <h3>2. Local Search Algorithms</h3>
-Local search algorithms operates on a single current state (or a small set of states) and attempt to improve it incrementally by exploring neighboring states.
+<p>Local search algorithms operates on a single current state (or a small set of states) 
+and attempt to improve it incrementally by exploring neighboring states.</p>
 
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/local-search-algorithm-in-artificial-intelligence/">Local search algorithms</a></li>
-  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/introduction-hill-climbing-artificial-intelligence/">Hill-Climbing Search Algorithm</a></li>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/local-search-algorithm-in-artificial-intelligence/">
+    Local search algorithms</a></li>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/introduction-hill-climbing-artificial-intelligence/">
+    Hill-Climbing Search Algorithm</a></li>
   <li><a href="https://www.geeksforgeeks.org/machine-learning/introduction-to-beam-search-algorithm/">
     Local Beam Search</a></li>
 </ul>
 
 <h3>3. Adversarial Search in AI</h3>
-Adversarial search deal with competitive environments where multiple agents (often two) are in direct competition with one another such as in games like chess, tic-tac-toe or Go.
+<p>Adversarial search deal with competitive environments where multiple agents (often two) 
+are in direct competition with one another such as in games like chess, tic-tac-toe or Go.</p>
 
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/adversarial-search-algorithms/">Adversarial search</a></li>
-  <li><a href="https://www.geeksforgeeks.org/dsa/minimax-algorithm-in-game-theory-set-1-introduction/">Minimax Algorithm</a></li>
-  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/alpha-beta-pruning-in-adversarial-search-algorithms/">Alpha-Beta Pruning</a></li>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/adversarial-search-algorithms/">
+    Adversarial search</a></li>
+  <li><a href="https://www.geeksforgeeks.org/dsa/minimax-algorithm-in-game-theory-set-1-introduction/">
+    Minimax Algorithm</a></li>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/alpha-beta-pruning-in-adversarial-search-algorithms/">
+    Alpha-Beta Pruning</a></li>
 </ul>
 
 <h3>4. Constraint Satisfaction Problems</h3>
-Constraint Satisfaction Problem (CSP) is a problem-solving framework that involves variables each with a domain of possible values and constraints limiting the combinations of variable values.
+<p>Constraint Satisfaction Problem (CSP) is a problem-solving framework that involves 
+variables each with a domain of possible values and constraints limiting the 
+combinations of variable values.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/constraint-satisfaction-problems-csp-in-artificial-intelligence/">Constraint Satisfaction Problem (CSP)</a></li>
@@ -68,9 +77,9 @@ Constraint Satisfaction Problem (CSP) is a problem-solving framework that involv
 </ul>
 
 <h2>Knowledge, Reasoning and Planning in AI</h2>
-Knowledge representation in Artificial Intelligence (AI) refers to the way information, 
+<p>Knowledge representation in Artificial Intelligence (AI) refers to the way information, 
 knowledge and data are structured, stored and used by AI systems to reason, learn and 
-make decisions.
+make decisions.</p>
 
 <p>Common techniques for knowledge representation include:</p>
 
@@ -88,7 +97,9 @@ make decisions.
 </ul>
 
 <h3>First Order Logic in Artificial Intelligence</h3>
-First Order Logic (FOL) is use to represent knowledge and reason about the world. It allows for the expression of more complex statements involving objects, their properties and the relationships between them.
+<p>First Order Logic (FOL) is use to represent knowledge and reason about the world. It 
+allows for the expression of more complex statements involving objects, their properties 
+and the relationships between them.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/first-order-logic-in-artificial-intelligence/">
@@ -102,9 +113,10 @@ First Order Logic (FOL) is use to represent knowledge and reason about the world
 </ul>
 
 <h3>Reasoning in Artificial Intelligence</h3>
-Reasoning in Artificial Intelligence (AI) is the process by which AI systems draw conclusions, make decisions or infer new knowledge from existing information.
+<p>Reasoning in Artificial Intelligence (AI) is the process by which AI systems draw 
+conclusions, make decisions or infer new knowledge from existing information.</p>
 
-Types of reasoning used in AI are:
+<p>Types of reasoning used in AI are:</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/reasoning-mechanisms-in-ai/">
@@ -122,7 +134,9 @@ Types of reasoning used in AI are:
 </ul>
 
 <h3>Planning in AI</h3>
-Planning in AI generates a sequence of actions that an intelligent agent needs to execute to achieve specific goals or objectives. Some of the planning techniques in artificial intelligence includes:
+<p>Planning in AI generates a sequence of actions that an intelligent agent needs to 
+execute to achieve specific goals or objectives. Some of the planning techniques in 
+artificial intelligence includes:</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-role-of-planning-in-artificial-intelligence/">
@@ -136,7 +150,9 @@ Planning in AI generates a sequence of actions that an intelligent agent needs t
 </ul>
 
 <h3>Uncertain Knowledge and Reasoning</h3>
-Uncertain Knowledge and Reasoning in AI refers to the methods and techniques used to handle situations where information is incomplete, ambiguous or uncertain. For managing uncertainty in AI following methods are used:
+<p>Uncertain Knowledge and Reasoning in AI refers to the methods and techniques used to 
+handle situations where information is incomplete, ambiguous or uncertain. For managing 
+uncertainty in AI following methods are used:</p>
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/representing-knowledge-in-an-uncertain-domain-in-ai/">
     Uncertain Knowledge and Reasoning in AI</a></li>
@@ -151,10 +167,13 @@ Uncertain Knowledge and Reasoning in AI refers to the methods and techniques use
 </ul>
 
 <h2>Types of Learning in AI</h2>
-Learning in Artificial Intelligence (AI) refers to the process by which a system improves its performance on a task over time through experience, data or interaction with the environment.
+<p>Learning in Artificial Intelligence (AI) refers to the process by which a system 
+improves its performance on a task over time through experience, data or interaction 
+with the environment.</p>
 
 <h3>1. Supervised Learning</h3>
-In Supervised Learning model are trained on labeled dataset to learn the mapping from inputs to outputs. Various algorithms are:
+<p>In Supervised Learning model are trained on labeled dataset to learn the mapping from 
+inputs to outputs. Various algorithms are:</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/supervised-machine-learning/">
@@ -176,7 +195,8 @@ In Supervised Learning model are trained on labeled dataset to learn the mapping
 </ul>
 
 <h3>2. Semi-supervised learning</h3>
-In Semi-supervised learning the model uses both labeled and unlabeled data to improve learning accuracy.
+<p>In Semi-supervised learning the model uses both labeled and unlabeled data to improve 
+learning accuracy.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/machine-learning/ml-semi-supervised-learning/">
@@ -184,7 +204,8 @@ In Semi-supervised learning the model uses both labeled and unlabeled data to im
 </ul>
 
 <h3>3. Unsupervised Learning</h3>
-In Unsupervised Learning the model is trained on unlabeled dataset to discover patterns or structures.
+<p>In Unsupervised Learning the model is trained on unlabeled dataset to discover patterns 
+or structures.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/machine-learning/unsupervised-learning/">
@@ -200,7 +221,8 @@ In Unsupervised Learning the model is trained on unlabeled dataset to discover p
 </ul>
 
 <h3>4. Reinforcement Learning</h3>
-In Reinforcement Learning the agent learns through interactions with an environment using feedbacks.
+<p>In Reinforcement Learning the agent learns through interactions with an environment 
+using feedbacks.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/">
@@ -216,7 +238,8 @@ In Reinforcement Learning the agent learns through interactions with an environm
 </ul>
 
 <h3>5. Deep Learning</h3>
-Deep Learning focuses on using neural networks with many layers to model and understand complex patterns and representations in large datasets.
+<p>Deep Learning focuses on using neural networks with many layers to model and understand 
+complex patterns and representations in large datasets.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/introduction-deep-learning/">
@@ -242,7 +265,9 @@ Deep Learning focuses on using neural networks with many layers to model and und
 </ul>
 
 <h3>Probabilistic models</h3>
-Probabilistic models in AI deals with uncertainty making predictions and modeling complex systems where uncertainty and variability play an important role. These models help in reasoning, decision-making and learning from data.
+<p>Probabilistic models in AI deals with uncertainty making predictions and modeling complex 
+systems where uncertainty and variability play an important role. These models help in 
+reasoning, decision-making and learning from data.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/probabilistic-models-in-machine-learning/">
@@ -256,12 +281,16 @@ Probabilistic models in AI deals with uncertainty making predictions and modelin
 </ul>
 
 <h2>Communication, Perceiving and Acting in AI and Robotics</h2>
-Communication in AI and robotics helps in the interaction between machines and their environments which uses natural language processing. Perceiving helps machines using sensors and cameras to interpret their surroundings accurately. Acting in robotics includes making informed decisions and performing tasks based on processed data.
+<p>Communication in AI and robotics helps in the interaction between machines and their 
+environments which uses natural language processing. Perceiving helps machines using 
+sensors and cameras to interpret their surroundings accurately. Acting in robotics 
+includes making informed decisions and performing tasks based on processed data.</p>
 
-<ol type="1" start="1">
+<h3><ol type="1" start="1">
   <li><a href="https://www.geeksforgeeks.org/nlp/natural-language-processing-overview/">
     Natural Language Processing (NLP)</a></li>
-</ol>
+</ol></h3>
+
 <ul>
   <li><a href="https://www.geeksforgeeks.org/speech-recognition-in-python-using-google-speech-api/">
     Speech Recognition</a></li>
@@ -273,9 +302,12 @@ Communication in AI and robotics helps in the interaction between machines and t
     Machine Translation</a></li>
 </ul>
 
+<h3>
 <ol type="1" start="2">
-  <li><a href="https://www.geeksforgeeks.org/computer-vision/computer-vision/">Computer Vision</a></li>
-</ol>
+  <li><a href="https://www.geeksforgeeks.org/computer-vision/computer-vision/">
+    Computer Vision</a></li>
+</ol></h3>
+
 <ul>
   <li><a href="https://www.geeksforgeeks.org/computer-vision/what-is-image-recognition/">
     Image Recognition</a></li>
@@ -285,12 +317,15 @@ Communication in AI and robotics helps in the interaction between machines and t
     Optical Character Recognition</a></li>
 </ul>
 
+<h3>
 <ol type="1" start="3">
-  <li><a href="https://www.geeksforgeeks.org/software-engineering/robotics-introduction/">Robotics</a></li>
-</ol>
+  <li><a href="https://www.geeksforgeeks.org/software-engineering/robotics-introduction/">
+    Robotics</a></li>
+</ol></h3>
 
 <h2>Generative AI</h2>
-Generative AI focuses on creating new data examples that resemble real data, effectively learning the distribution of data to generate similar but distinct outputs.
+<p>Generative AI focuses on creating new data examples that resemble real data, effectively 
+learning the distribution of data to generate similar but distinct outputs.</p>
 
 <ul>
   <li><a href="https://www.geeksforgeeks.org/large-language-model-llm/">
@@ -309,4 +344,7 @@ Generative AI focuses on creating new data examples that resemble real data, eff
     Style GANs</a></li>
 </ul>
 
-We've covered the AI tutuorial which is important for developing intelligent systems and helps in making the perfect balance of simplicity and capability.
+<p>We've covered the AI tutuorial which is important for developing intelligent systems 
+and helps in making the perfect balance of simplicity and capability.</p>
+
+
