@@ -90,61 +90,61 @@ Paste the below code into the html file.
 <html lang="en">
   
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Search Bar</title>
-    <style>
-        #searchBar{
-            font-size: 20px;
-        }
-        .movieWrapper {
-            display: none;
-            text-align: left;
-            margin-left: 20%;
-        }
-        .search{
-            text-align: center;
-            padding-top: 15%;
-            width: 30%;
-            margin-left: 35%;
-        }
-        h1{
-            margin-bottom: 0%;
-        }
-        p{
-            margin-top: 0%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Search Bar</title>
+  <style>
+    #searchBar {
+      font-size: 20px;
+    }
+    .movieWrapper {
+      display: none;
+      text-align: left;
+      margin-left: 20%;
+    }
+    .search {
+      text-align: center;
+      padding-top: 15%;
+      width: 30%;
+      margin-left: 35%;
+    }
+    h1 {
+      margin-bottom: 0%;
+    }
+    p {
+      margin-top: 0%;
+    }
+  </style>
 </head>
-  
-<body>
-    <div class=search>
-        <h1>GFG Movie Search</h1>
-        <p>item search example</p>
-        <input type="text" id="searchBar" placeholder="Search for a movie...">
-        <div class="movieWrapper">Inception</div>
-        <div class="movieWrapper">Interstellar</div>
-        <div class="movieWrapper">The Dark Knight</div>
-        <div class="movieWrapper">Memento</div>
-        <div class="movieWrapper">Dunkirk</div>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const getSearchBar = document.querySelector('#searchBar');
-            const getAllMovies = document.querySelectorAll('.movieWrapper');
 
-            getSearchBar.addEventListener('keyup', (e) => {
-                getAllMovies.forEach(movie => {
-                    if (movie.innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
-                        movie.style.display = 'block';
-                    } else {
-                        movie.style.display = 'none';
-                    }
-                });
-            });
+<body>
+  <div class=search>
+    <h1>GFG Movie Search</h1>
+    <p>item search example</p>
+    <input type="text" id="searchBar" placeholder="Search for a movie...">
+      <div class="movieWrapper">Inception</div>
+      <div class="movieWrapper">Interstellar</div>
+      <div class="movieWrapper">The Dark Knight</div>
+      <div class="movieWrapper">Memento</div>
+      <div class="movieWrapper">Dunkirk</div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const getSearchBar = document.querySelector('#searchBar');
+      const getAllMovies = document.querySelectorAll('.movieWrapper');
+
+      getSearchBar.addEventListener('keyup', (e) => {
+        getAllMovies.forEach(movie => {
+          if (movie.innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
+            movie.style.display = 'block';
+          } else {
+            movie.style.display = 'none';
+          }
         });
-    </script>
+      });
+    });
+  </script>
 </body>
   
 </html>
